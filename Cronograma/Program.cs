@@ -70,7 +70,7 @@ class CronogramaEstudoDetalhado
         {
             string[] topicosEstudo = conteudoEstudo[GetNomeNivel(escolhaNivel)][GetNomeLinguagem(escolhaLinguagem)]; // se for true, mostrar a linguagem e seu topico ao lado
 
-            WriteLine("\nVocê escolheu estudar " + GetNomeNivel(escolhaNivel) + " em " + GetNomeLinguagem(escolhaLinguagem) + ":");
+            WriteLine("\nVocê escolheu estudar " + GetNomeNivel(escolhaNivel) + " em " + GetNomeLinguagem(escolhaLinguagem) + ":"); //mostrando o nivel e a linguagem
             foreach (string topico in topicosEstudo)   //iterando e mostrando no console o topico
             {
                 WriteLine(" - " + topico);
